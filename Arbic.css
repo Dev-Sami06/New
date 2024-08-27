@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.html {
+    font-size: 62.5%;
+}
+
+.carousel-slide {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide img {
+    width: 100%;
+}
+
+.container-1 {
+    padding: 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family:cursive;
+}
+.font{
+    font-size: 40px;
+
+}
+
+
+.img-s{
+    border-radius: 113px;
+    cursor: pointer;
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+}
+.img-s img:hover {
+    transform: scale(1.1);
+    border-radius: 0px;
+
+}
+.margin {
+    margin-top: 55px;
+}
+.menu-item{
+    margin: -9px;
+}
